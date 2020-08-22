@@ -1,0 +1,51 @@
+/* 自定义css类属性 */
+/*清除所有a标签默认样式*/
+a {
+  text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+  text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+  text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+  text-decoration: none;
+}
+/* 正在点击的链接*/
+a:active {
+  text-decoration: none;
+}
+.headerWrapper {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1500;
+}
+.headerWrapper{
+    height: 80px;
+}
+.header{
+    height: 80px;
+    background-color: #fff;
+    color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 80px;
+    z-index: 100;
+    position: relative;
+}
+.container {
+    width: 1140px;
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdfe6;
+}
+
