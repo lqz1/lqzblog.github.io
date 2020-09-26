@@ -79,7 +79,7 @@ body{
   padding-left: 7.5px!important;
   padding-right: 7.5px!important;
 }
-.img-spread{
+.img-spread,.img-spread img{
   position: absolute;
   width: 100%!important;
   height: 100%!important;
@@ -132,4 +132,19 @@ body{
 }
 .aRow{
   margin-top: 15px;
+}
+
+
+
+.image-slot{
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 247, 250);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-slot i{
+  color: rgb(144, 147, 153);
 }
