@@ -35,6 +35,7 @@ ul,li{ padding:0;margin:0;list-style:none}
   padding: 0 25px;
   line-height: 80px;
   color: #909399;
+  cursor: pointer;
 }
 .container-right li:hover{
   color: #303133;
